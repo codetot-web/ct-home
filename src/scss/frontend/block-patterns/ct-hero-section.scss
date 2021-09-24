@@ -1,0 +1,36 @@
+.ct-hero-section {
+	padding: 40px 0;
+
+	@media (min-width: 768px) {
+		.ct-hero-section {
+			padding: 80px 0;
+		}
+	}
+}
+
+.ct-hero-section > .wp-block-group__inner-container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+	@media (min-width: 768px) {
+		padding: 0 40px;
+	}
+}
+
+.ct-hero-section__title {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.ct-hero-section__description .wp-block-group__inner-container {
+	max-width: 740px;
+}
+
+.ct-hero-section .wp-block-buttons {
+	margin-top: 20px;
+}
+
+.ct-hero-section .wp-block-button__link {
+	min-width: 200px;
+}
